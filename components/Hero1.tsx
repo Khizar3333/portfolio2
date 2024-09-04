@@ -25,6 +25,7 @@ export function LampDemo() {
         
         {/* <Grid/> */}
         </motion.h1>
+      
       </LampContainer>
     );
   }

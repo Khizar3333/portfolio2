@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <div className='py-20' id='projects'>
     <h1 className='heading'>A small collection of{' '}
-    <span className='text-purple'>my recent projects</span>
+    <span className='text-cyan-300'>my recent projects</span>
     </h1>
         <div className=' '> 
         <TimelineDemo/>

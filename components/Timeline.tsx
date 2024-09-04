@@ -56,8 +56,8 @@ Developed a Retrieval-Augmented Generation (RAG) application that answers user q
           <Link href={"https://rb.gy/ef1x8u"} >
           <div className='flex justify-center items-center mt-4'>
 
-                        <button className='flex lg:text-xl bg-[#5038c17a] rounded-full px-5 py-2 text-sm text-purple'>Check live site</button>
-                        <FaLocationArrow className='ms-3' color='#CBACF9'/>
+                        <button className='flex lg:text-xl bg-[#3f92ca7a] rounded-full px-5 py-2 text-sm text-cyan-100'>Check live site</button>
+                        <FaLocationArrow className='ms-3 '  />
                     </div>
           </Link>
               
@@ -114,8 +114,8 @@ This E-commerce app provides a seamless shopping experience with features like a
           <Link href={"https://techloset-ecom.vercel.app/"} >
           <div className='flex justify-center items-center mt-4'>
 
-                        <button className='flex lg:text-xl bg-[#5038c17a] rounded-full px-5 py-2 text-sm text-purple'>Check live site</button>
-                        <FaLocationArrow className='ms-3' color='#CBACF9'/>
+                        <button className='flex lg:text-xl bg-[#3f92ca7a] rounded-full px-5 py-2 text-sm text-cyan-100'>Check live site</button>
+                        <FaLocationArrow className='ms-3' />
                     </div>
           </Link>
         </div>

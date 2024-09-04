@@ -9,6 +9,8 @@ import Client from "@/components/Client";
 import Experience from "@/components/Experience";
 import { TimelineDemo } from "@/components/Timeline";
 import Hero1 from "@/components/Hero1";
+import Footer from "../components/Footer";
+
 
 export default function Home() {
   return (
@@ -16,12 +18,14 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
         <Hero/>
-        <Hero1/>
+       
+        {/* <Hero1/> */}
 
-        {/* <Grid/> */}
-        <Recentprojects/>
+        <Grid/>
+        {/* <Recentprojects/> */}
         <Client/>
         <Experience/>
+        <Footer/>
         {/* <TimelineDemo/> */}
         {/* <Verticaltimeline/> */}
       </div>

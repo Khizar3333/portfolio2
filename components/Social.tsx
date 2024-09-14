@@ -2,6 +2,8 @@ import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
   IconBrandGithub,
+  IconBrandInstagram,
+  IconBrandLinkedin,
   IconBrandX,
   IconExchange,
   IconHome,
@@ -28,24 +30,24 @@ export default function Social() {
       href: "#",
     },
     {
-      title: "Components",
+      title: "Instagram",
       icon: (
-        <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.instagram.com/khizarahmad123/?hl=en",
     },
-    {
-      title: "Aceternity UI",
-      icon: (
-        <Image
-          src="https://assets.aceternity.com/logo-dark.png"
-          width={20}
-          height={20}
-          alt="Aceternity Logo"
-        />
-      ),
-      href: "#",
-    },
+    // {
+    //   title: "Instagram",
+    //   icon: (
+    //     <Image
+    //       src="https://assets.aceternity.com/logo-dark.png"
+    //       width={20}
+    //       height={20}
+    //       alt="Aceternity Logo"
+    //     />
+    //   ),
+    //   href: "https://www.instagram.com/khizarahmad123/?hl=en",
+    // },
     {
       title: "Changelog",
       icon: (
@@ -55,18 +57,18 @@ export default function Social() {
     },
 
     {
-      title: "Twitter",
+      title: "LinkedIn",
       icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.linkedin.com/in/khizar-ahmad-b384a0281/",
     },
     {
       title: "GitHub",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://github.com/Khizar3333",
     },
   ];
   return (

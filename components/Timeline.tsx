@@ -34,7 +34,7 @@ export function TimelineDemo() {
             </span>
             <br />
 
-Developed a Retrieval-Augmented Generation (RAG) application that answers user queries specifically related to LangSmith. The frontend is built using Streamlit, while the LLM is powered by LLaMA 3.1 via the Groq API, integrated with LangChain for seamless interaction. The application is fully dockerized and deployed on Azure Cloud.
+Developed a Retrieval-Augmented Generation (RAG) application that answers user queries specifically related to LangSmith. The frontend is built using Streamlit, while the LLM is powered by LLaMA 3.1 via the Groq API, integrated with LangChain for seamless interaction. 
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -53,7 +53,7 @@ Developed a Retrieval-Augmented Generation (RAG) application that answers user q
               />
             
           </div>
-          <Link href={"https://rb.gy/ef1x8u"} >
+          <Link href={"https://groqbot123.streamlit.app/"} >
           <div className='flex justify-center items-center mt-4'>
 
                         <button className='flex lg:text-xl bg-[#3f92ca7a] rounded-full px-5 py-2 text-sm text-cyan-100'>Check live site</button>
@@ -132,7 +132,7 @@ This E-commerce app provides a seamless shopping experience with features like a
             </span>
             <br />
 
-            Developed an agent-based chatbot that autonomously utilizes various tools to answer user queries. The backend, built with Python, integrates three key tools: LangSmith, Wikipedia, and arXiv. It leverages OpenAI APIs for the language model and employs LangChain for agent functionality. The frontend is built using Streamlit, and the entire application is containerized with Docker and deployed on Azure Cloud.
+            Developed an agent-based chatbot that autonomously utilizes various tools to answer user queries. The backend, built with Python, integrates three key tools: LangSmith, Wikipedia, and arXiv. It leverages OpenAI APIs for the language model and employs LangChain for agent functionality. The frontend is built using Streamlit.
             </p>
          
          
@@ -154,7 +154,7 @@ This E-commerce app provides a seamless shopping experience with features like a
            
             
           </div>
-          <Link href={"https://agent.gentletree-f001f20d.southcentralus.azurecontainerapps.io/"} >
+          <Link href={"https://aiagent-zps2ewbnpceq7dlhojgouz.streamlit.app/"} >
           <div className='flex justify-center items-center mt-4'>
 
                         <button className='flex lg:text-xl bg-[#3f92ca7a] rounded-full px-5 py-2 text-sm text-cyan-100'>Check live site</button>

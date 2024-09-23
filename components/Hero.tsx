@@ -26,7 +26,7 @@ const Hero = () => {
     <div className='flex justify-center relative my-20 z-10'>
       <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
       {/*  */}
-        <TextGenerateEffect words="From Concept to Flawless User Experience"
+        <TextGenerateEffect words="Crafting Flawless User Experiences with  Generative AI and Full Stack Development"
         className='text-center text-[40px] md:text-5xl lg:text-6xl'
         />
         <p className='text-center md:tracking-wider mb-4 text-sm md:tex-lg lg:text-2xl'>

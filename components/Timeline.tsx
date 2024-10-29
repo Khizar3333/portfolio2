@@ -10,6 +10,17 @@ import ecom3 from "@/app/images/react-ecom3.png"
 import ecom4 from "@/app/images/react-ecom4.png"
 import agent1 from "@/app/images/agent1.png"
 import agent2 from "@/app/images/agent2.png"
+import clickup1 from "@/app/images/clickup1.png"
+import clickup2 from "@/app/images/clickup2.png"
+import clickup4 from "@/app/images/clickup4.png"
+import ticket1 from "@/app/images/ticket1.png"
+import ticket2 from "@/app/images/ticket2.png"
+import ticket3 from "@/app/images/ticket3.png"  
+import ticket4 from "@/app/images/ticket4.png"
+import clear1 from "@/app/images/clear1.png"
+import clear2 from "@/app/images/clear2.png"
+import clear3 from "@/app/images/clear3.png"
+import clear4 from "@/app/images/clear4.png"
 
 import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa";
@@ -122,6 +133,119 @@ This E-commerce app provides a seamless shopping experience with features like a
       ),
     },
     {
+      title: "Clickup Clone",
+      
+      content: (
+           
+        <div style={{
+          background: "rgb(4,7,29)",
+          backgroundColor:
+            "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+      }}>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-base   font-normal mb-8">
+            <span className="font-bold text-base md:text-lg mb-5">
+      
+          Clickup website Clone
+            </span>
+            <br />
+
+Developed a website clone of Clickup.This is only ui of clickup and it is made by using Nextjs and Tailwand css,  . 
+          </p>
+          <div className="grid grid-cols-2 gap-4">
+            <Image
+              src={clickup1}
+              alt="startup template"
+              width={500}
+              height={600}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={clickup2}
+              alt="startup template"
+              width={500}
+              height={600}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+               <Image
+              src={clickup4}
+              alt="startup template"
+              width={500}
+              height={600}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            
+          </div>
+          <Link href={"https://clcikup.vercel.app/"} >
+          <div className='flex justify-center items-center mt-4'>
+
+                        <button className='flex lg:text-xl bg-[#3f92ca7a] rounded-full px-5 py-2 text-sm text-cyan-100'>Check live site</button>
+                        <FaLocationArrow className='ms-3 '  />
+                    </div>
+          </Link>
+              
+              
+    
+
+    </div>
+      ),
+      
+    },
+    {
+      title: "Ticket generation app",
+      content: (
+          <div>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-lg font-bold mb-5">
+        Built using Nextjs Tailwand css ,Ttpescript and Postgresql
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-base font-normal mb-8">
+       
+
+
+This is Full stack web app that allows users to generate tickets for events. The app uses Nextjs for the frontend, Tailwind CSS for styling, and Postgresql for database management. The backend is also built using Nextjs. It also uses Typescript for type safety.
+        </p>
+        <div className="grid grid-cols-2 gap-4">
+          <Image
+            src={ticket1}
+            alt="hero template"
+            width={500}
+            height={600}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+          />
+          <Image
+            src={ticket2}
+            alt="feature template"
+            width={500}
+            height={600}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+          />
+          <Image
+            src={ticket3}
+            alt="bento template"
+            width={500}
+            height={600}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+          />
+          <Image
+            src={ticket4}
+            alt="cards template"
+            width={500}
+            height={600}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+          />
+        </div>
+        <Link href={"https://conference-app-j5kv.vercel.app/"} >
+        <div className='flex justify-center items-center mt-4'>
+
+                      <button className='flex lg:text-xl bg-[#3f92ca7a] rounded-full px-5 py-2 text-sm text-cyan-100'>Check live site</button>
+                      <FaLocationArrow className='ms-3' />
+                  </div>
+        </Link>
+      </div>
+    ),
+  },
+
+
+    {
       title: "Agentic App",
       content: (
         <div>
@@ -164,6 +288,60 @@ This E-commerce app provides a seamless shopping experience with features like a
         </div>
       ),
     },
+    {
+      title: "Clearlife Technologies",
+      content: (
+          <div>
+        {/* <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-lg font-bold mb-5">
+        Built using Nextjs, Tailwand css and Tailblocks for prebuilt components 
+        </p> */}
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-base font-normal mb-8">
+       
+
+
+        This is ClearLife Tech website which is a pioneering company dedicated to revolutionizing wastewater treatment through decentralized solutions
+        this website is built using Nextjs and Tailwind css  Tailblocks for prebuilt components and some other react libraries fro small animatons
+        </p>
+        <div className="grid grid-cols-2 gap-4">
+          <Image
+            src={clear1}
+            alt="hero template"
+            width={500}
+            height={600}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+          />
+          <Image
+            src={clear2}
+            alt="feature template"
+            width={500}
+            height={600}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+          />
+          <Image
+            src={clear3}
+            alt="bento template"
+            width={500}
+            height={600}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+          />
+          <Image
+            src={clear4}
+            alt="cards template"
+            width={500}
+            height={600}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+          />
+        </div>
+        <Link href={"https://www.clearlifetech.com/"} >
+        <div className='flex justify-center items-center mt-4'>
+
+                      <button className='flex lg:text-xl bg-[#3f92ca7a] rounded-full px-5 py-2 text-sm text-cyan-100'>Check live site</button>
+                      <FaLocationArrow className='ms-3' />
+                  </div>
+        </Link>
+      </div>
+    ),
+  },
   ];
   return (
     <div className="w-full">

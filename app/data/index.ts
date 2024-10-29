@@ -41,16 +41,16 @@ export const navItems = [
       img: "",
       spareImg: "",
     },
-    // {
-    //   id: 3,
-    //   title: "My tech stack",
-    //   description: "I constantly try to improve",
-    //   className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    //   imgClassName: "",
-    //   titleClassName: "justify-center",
-    //   img: "",
-    //   spareImg: "",
-    // },
+    {
+      id: 3,
+      title: "My tech stack",
+      description: "I constantly try to improve",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+      imgClassName: "",
+      titleClassName: "justify-center",
+      img: "",
+      spareImg: "",
+    },
     {
       id: 4,
       title: "Tech enthusiast with a passion for development.",
@@ -64,7 +64,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently working on ai agents",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -129,18 +129,14 @@ export const navItems = [
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-      image:"/profile.svg",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-      image:"/profile.svg",
-    },
+        "I am pleased to recommend Khizar Ahmad for his exceptional web development skills and remarkable expertise as a software engineer. During our collaboration at Clearlife Technologies, Khizar consistently demonstrated a high level of professionalism and technical prowess. Khizars ability to tackle complex challenges and deliver innovative solutions was evident throughout our project. His attention to detail, commitment to quality, and proficiency in various web technologies significantly contributed to the projects success.",
+
+          
+      name: "Amman Khokhar",
+      title: "CEO at Clearlife Technologies, Remote Sales Specialist at Central Clinical Labs (CCL), ",
+      image:"/amman.png",
+    }
+    
   
   ];
   

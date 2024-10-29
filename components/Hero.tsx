@@ -30,9 +30,9 @@ const Hero = () => {
         className='text-center text-[40px] md:text-5xl lg:text-6xl'
         />
         <p className='text-center md:tracking-wider mb-4 text-sm md:tex-lg lg:text-2xl'>
-          Hi, Im Khizar, a Full-stack  Developer.
+          Hi, Im Khizar, GenerativeAI Enthusiast and a Full-stack  Developer.
         </p>
-        <a href="#about"
+        <a href="#projects"
         
         >
         <Magicbutton 
